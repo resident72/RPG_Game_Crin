@@ -1,4 +1,5 @@
 class player:
-    health = 10
-    deamage = 1
-    
+    player_health = 10
+    player_deamage = 1
+
+print(player.player_health)
