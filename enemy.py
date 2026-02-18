@@ -1,3 +1,4 @@
-class enemy:
-    enemy_health = 5
-    enemy_deamage = 2
+class player:
+    def __init__(self, health, deamage):
+        self.health = health
+        self.deamage = deamage
